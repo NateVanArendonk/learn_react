@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -43,7 +43,10 @@
 main {
   padding: 57px 27px;
   color: white;
-  max-width: 600px;
+  max-width: 500px;
+  background-image: url(./images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
 
 .main-head {
@@ -59,7 +62,12 @@ main {
 .fact-list > li {
   line-height: 19px;
   padding-block: 10px;
-  max-width: 400px;
+  max-width: 500px;
+}
+
+.fact-list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
 
 body {
