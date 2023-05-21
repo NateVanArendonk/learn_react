@@ -32,21 +32,34 @@
   margin-right: 7px;
 }
 
-.main-body {
-  display: flex;
-  align-items: center;
-}
-
-.main-header {
-  color: #FFFFFF;
-}
-
 .list-item {
   color: #FFFFFF;
 }
 
 * {
   box-sizing: border-box;
+}
+
+main {
+  padding: 57px 27px;
+  color: white;
+  max-width: 600px;
+}
+
+.main-head {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.fact-list {
+  margin-top: 46px;
+}
+
+.fact-list > li {
+  line-height: 19px;
+  padding-block: 10px;
+  max-width: 400px;
 }
 
 body {
